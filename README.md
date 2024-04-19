@@ -69,10 +69,3 @@ And enjoy `localhost:8000`
       <img src="https://i.ibb.co/gRLWfCq/image.png" alt = "Preview page" width="900">
 </p>
 
-
-
-## Documentation
-*Currently in progress <3*
-#### Methods
-
-*Will be here soon ;)*
