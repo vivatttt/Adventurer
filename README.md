@@ -19,7 +19,7 @@ On the **Adventurer** you can find a whole new concept, you've never seen before
 Adventurer as a web application has one important distinguishing feature. As part of writing this project, a special database structure was implemented and a special algorithm was written that allows you to **quickly search for posts by hashtags**.
 
 ## Getting started
-To launch the **Advnturer** run following on your **Linux** PC
+To launch the **Advanturer** run following on your **Linux** PC
 
 Download the Virtual Enviroment
 ```shell
