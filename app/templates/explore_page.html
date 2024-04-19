@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/static/styles/explore_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>explore</title>
+</head>
+<body>
+    
+    <h1 class="h1">
+        Find your adventure
+    </h1>
+
+    <div class="d2">
+        <form action="/explore" method="post">
+            <input name="hashtags" id="hashtags" class="hashtags_inp" type="text" placeholder="Enter #hashtags...">
+            <button type="submit">🔎</button>
+        </form>
+    </div>
+    {% if html_content == -1: %}
+    <h2 class="h2">😭😭 Unfortunately, nothing was found for this request</h2>
+    {% else %}
+    <div class="wrapper">    
+        {% for post in html_content %}
+            <div class="container">
+                {{ post|safe }}
+            </div>
+        {% endfor %}
+    
+    {% endif %}
+    
+</body>
+</html>

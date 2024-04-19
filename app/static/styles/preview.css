@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0;
+    background-color: #042f36;
+    color:white;
+}
+
+.container {
+    display: inline-block;
+    color: white;
+ 
+    max-width: 55%;
+
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: #1f4f41;
+    border-radius: 16px;
+   
+}

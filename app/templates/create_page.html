@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create</title>
+
+    <link rel="stylesheet" href="/static/styles/create_page.css">
+    <script src="/static/js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="/submit" method="post">
+            <div class="container">
+                <p class="text_md">New adventure.md</p>
+                <textarea class="main_textarea" name="text" id="text" placeholder="Share your ideas..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit_button">✅Submit</button>
+            <button type="submit" formaction="/preview" class="submit_button">🖼️Preview</button>
+            <button type="button" class="submit_button" onclick="redirectToMain()">🏠Home</button>
+
+            <div class="hashtags_container">
+                <input type="text" id="hashtags" name="hashtags" placeholder="Add #hashtags ...">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
