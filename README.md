@@ -9,9 +9,18 @@
 </p>
 
 ## About
+> **Adventurer** helps the seekers to find, and the inspired to share
 
-### Getting started
-To launch the *Advnturer* run following on your **Linux** PC
+That web-site is created both for people who are looking for ideas for their projects and people, who always have concepts, but can't coupe with realisation. <br>
+
+On the **Adventurer** you can find a whole new concept, you've never seen before.
+
+## Description
+Adventurer as a web application has one important distinguishing feature. As part of writing this project, a special database structure was implemented and a special algorithm was written that allows you to **quickly search for posts by hashtags**.
+
+## Getting started
+To launch the **Advnturer** run following on your **Linux** PC
+
 Download the Virtual Enviroment
 ```shell
 python3 -m venv env
@@ -32,20 +41,30 @@ So:
    flask db migrate -m "initial migration"
    flask db upgrade
    ```
-Then open your favorite browser and go to the *locallhost:8000*
-### Personal information page <br>
+And finally <br>
+```shell
+make run
+```
+And enjoy `localhost:8000`
+## Gallery <br>
+
 <p align="center">
-      <img src="https://i.ibb.co/7vYmtZk/image.png" alt = "personal information page" width="900">
+      <img src="https://i.ibb.co/BjnQRZz/image.png" alt = "Start page" width="900">
 </p>
 
-[click](https://i.ibb.co/5vgCv2v/image.png) to see the whole page
-
-### Education information page <br>
 <p align="center">
-      <img src="https://i.ibb.co/gtHJfJN/image.png", alt = "education information page" width="900">
+      <img src="https://i.ibb.co/1Gn8BSf/image.png" alt = "Explore page" width="900">
 </p>
 
-[click](https://i.ibb.co/68XRJsZ/image.png) to see the whole page
+<p align="center">
+      <img src="https://i.ibb.co/vsKNx3Z/image.png" alt = "Create page" width="900">
+</p>
+
+<p align="center">
+      <img src="https://i.ibb.co/gRLWfCq/image.png" alt = "Preview page" width="900">
+</p>
+
+
 
 ## Documentation
 *Currently in progress <3*
