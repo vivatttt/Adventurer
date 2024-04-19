@@ -21,7 +21,7 @@ On the **Adventurer** you can find a whole new concept, you've never seen before
 </p>
 
 ## Description
-This service offers two main functionalities: posting project descriptions or discovering new and interesting projects. Descriptions are written in Markdown to enhance the visual appeal of posts. One standout feature of Adventurer is its specialized database structure and algorithm designed specifically for quickly searching posts by hashtags.
+This service offers two main functionalities: posting project descriptions or discovering new and interesting projects. Descriptions are written in Markdown to enhance the visual appeal of posts. One standout feature of Adventurer is its specialized database structure and algorithm designed specifically for **quickly searching posts by hashtags**.
 
 ## Getting started
 To launch the **Adventurer** run following on your **Linux** PC
