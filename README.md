@@ -15,6 +15,11 @@ That web-site is created both for people who are looking for ideas for their pro
 
 On the **Adventurer** you can find a whole new concept, you've never seen before.
 
+## Demonstration
+<p align="center">
+      <img src="https://github.com/vivatttt/Adventurer/blob/main/demonstration.gif">
+</p>
+
 ## Description
 Adventurer as a web application has one important distinguishing feature. As part of writing this project, a special database structure was implemented and a special algorithm was written that allows you to **quickly search for posts by hashtags**.
 
